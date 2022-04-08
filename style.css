@@ -5,6 +5,11 @@
 
 body {
   background-color: #d4f2db;
+
+  overflow-x: hidden;
+
+  width: 1280px;
+  height: 1024px;
 }
 
 .mainContainer {
@@ -58,9 +63,9 @@ body {
 
 .mePic {
   border: 3px #64443e dotted;
-  align-items: flex-start;
   margin-bottom: 50px;
-  justify-content: center;
+
+  height: 250px;
 }
 
 .aboutMeScroll {
