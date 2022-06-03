@@ -51,17 +51,13 @@ a:visited {
   border-bottom: #00703c 6px ridge;
 }
 
-#contact {
-  padding-top: 15px;
+.contact {
+  display: flex;
+  align-items: center;
+
   font-size: 32px;
   width: 180px;
   height: 78px;
-}
-
-#contact-box {
-  display: flex;
-
-  align-items: center;
 }
 
 #contact:hover {
@@ -215,35 +211,6 @@ a:visited {
 }
 
 /*-- Dropdown stuff --*/
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li {
-  float: left;
-}
-
-li a,
-.dropbtn {
-  display: inline-block;
-  text-align: center;
-  padding: 14px 10px;
-  text-decoration: none;
-}
-
-li a:hover,
-.dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-li.dropdown {
-  display: inline-block;
-  height: 65px;
-}
 
 .dropdown-content {
   display: none;
